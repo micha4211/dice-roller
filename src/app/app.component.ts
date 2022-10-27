@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dice-roller';
+
+  dieRolled = (data: any) => {
+    console.log(data);
+  }
+
 }
